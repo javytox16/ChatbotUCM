@@ -1,0 +1,219 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "¿Cómo estás?",
+                "¿Qué tal?"
+            ],
+            "responses": [
+                "Hola",
+                "¡Hola!",
+                "¡Hola! ¿En qué puedo ayudarte?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adiós",
+                "Hasta luego",
+                "Nos vemos"
+            ],
+            "responses": [
+                "Adiós",
+                "¡Hasta luego!",
+                "¡Nos vemos!"
+            ]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": [
+                "Gracias",
+                "Muchas gracias",
+                "Te agradezco"
+            ],
+            "responses": [
+                "De nada",
+                "¡No hay de qué!",
+                "¡Estoy para ayudarte!"
+            ]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": [
+                "Ayúdame",
+                "Necesito ayuda",
+                "¿Me puedes ayudar?"
+            ],
+            "responses": [
+                "Claro, ¿en qué puedo ayudarte?",
+                "¡Por supuesto!",
+                "¡Estoy para ayudarte!"
+            ]
+        },{
+            "tag": "No_respuesta",
+            "patterns": [
+                "No te pregunte eso",
+                "Eso no es lo que pregunte",
+                "No es lo que pregunte",
+                "No es lo que te pregunte",
+                "No me referia a eso",
+                "No era eso lo que pregunte",
+                "eso no es lo que te pregunte",
+                "No era eso lo que te pregunte",
+                "No era eso",
+                "No era eso lo que pregunte",
+                "No pregunte eso",
+                "No entendiste mi pregunta",
+                "No me respondiste lo que pregunte"
+                
+            ],
+            "responses": [
+                "¡Mil disculpas!, si puedes ser mas preciso en la consulta, podré ayudarte de mejor manera",
+                "¡Lo siento!, si puedes ser mas preciso en la consulta, podré ayudarte de mejor manera",
+                "¡Cuanto lo siento!, si puedes ser mas preciso en la consulta, podré ayudarte de mejor manera"
+            ]
+        },{
+            "tag": "informacion_general",
+            "patterns": [
+                "¿Donde queda la universidad?",
+                "¿Cual es la dirección de la universidad?",
+                "¿Donde esta ubicada la universidad?",
+                "¿Donde queda la UCM?",
+                "¿Cual es la direccion de la UCM?",
+                "¿Donde esta ubicada la UCM?",
+                "¿Donde esta la UCM?",
+                "¿Donde esta la ucm?",
+                "¿Donde queda la Universidad Católica del Maule?",
+                "¿Cual es la dirección de la Universidad Católica del Maule?",
+                "¿Donde esta ubicada la Universidad Católica del Maule?"
+                
+            ],
+            "responses": [
+                "¡Claro!, la Universidad Católica del Maule se encuentra ubicada en la ciudad de Talca, en la región del Maule, Chile. La dirección es Avenida San Miguel 3605.",
+                "¡Por supuesto!, la Universidad Católica del Maule se encuentra ubicada en la ciudad de Talca, en la región del Maule, Chile. La dirección es Avenida San Miguel 3605."
+            ]
+        },{
+            "tag": "informacion_general_2",
+            "patterns": [
+                "¿Cual es el portal Oficial de la Universidad Católica del Maule?",
+                "¿Cual es la pagina web de la Universidad Católica del Maule?",
+                "¿Cual es el sitio web de la Universidad Católica del Maule?",
+                "¿Cual es el portal Oficial de la UCM?",
+                "¿Cual es la página de la UCM?"
+                
+            ],
+            "responses": [
+                "¡Claro!, el portal oficial de la Universidad Católica del Maule es <a href='https://portal.ucm.cl/' target= '_blank'> https://portal.ucm.cl/</a> , sitio donde podrás encontrar toda la información necesaria de la universidad.",
+                "El portal oficial de la Universidad Católica del Maule es <a href='https://portal.ucm.cl/' target= '_blank'> https://portal.ucm.cl/</a> , donde podrás encontrar toda la información necesaria para postular, matricularte, entre otros."
+            ]
+        },{
+            "tag": "Mapa_UCM",
+            "patterns": [
+                "¿Cual es el mapa de la Universidad Católica del Maule?",
+                "Quiero ver el mapa de la Universidad Católica del Maule",
+                "Donde esta la sala F401",
+                "Donde esta la Biblioteca",
+                "No se donde esta mi sala, ¿me puedes ayudar?",
+                "No se donde es mi clase, ¿me puedes ayudar?"
+                
+            ],
+            "responses": [
+                "El mapa de este link puede ayudarte para que te ubiques <a href='https://portal.ucm.cl//content/uploads/2022/05/Mapa_UCM_2024_.pdf' target= '_blank'> https://portal.ucm.cl//content/uploads/2022/05/Mapa_UCM_2024_.pdf </a>"
+                
+            ]
+        },{
+            "tag": "Becas_UCM",
+            "patterns": [
+                "¿Que becas ofrece la Universidad Católica del Maule?",
+                "¿Cuales son las becas de la Universidad Católica del Maule?",
+                "¿Que becas hay en la UCM?",
+                "¿Cuales son las becas de la UCM?",
+                "Hay becas en la Universidad Católica del Maule?",
+                "Hay becas en la UCM?",
+                "¿Que becas ofrece la UCM?"
+                
+            ],
+            "responses": [
+                "La Universidad Católica del Maule es parte de las universidades adscritas a la gratuidad y ofrece becas internas para sus estudiantes, además de becas de arancel y becas de alimentación, Para más información puedes visitar el siguiente link <a href='https://portal.ucm.cl/becas/' target= '_blank'>  https://portal.ucm.cl/becas/ </a>"
+                
+            ]
+        },{
+            "tag": "Ramos_UCM",
+            "patterns": [
+                "¿Donde debo tomar ramos?",
+                "¿Donde debo tomar cursos?",
+                "¿Donde debo tomar asignaturas?",
+                "¿Donde debo inscribir ramos?",
+                "¿Donde debo inscribir cursos?",
+                "¿Donde debo inscribir asignaturas?",
+                "¿Donde debo inscribir mis ramos?",
+                "¿Donde debo inscribir mis cursos?",
+                "¿Donde debo inscribir mis asignaturas?",
+                "¿En que parte se inscriben los ramos?",
+                "¿En que parte se inscriben los cursos?",
+                "¿En que parte se inscriben las asignaturas?",
+                "¿En que parte se toman ramos?",
+                "¿En que parte se toman cursos?",
+                "¿En que parte se toman asignaturas?",
+                "Donde tomo ramos?",
+                "Donde tomo cursos?",
+                "Donde tomo asignaturas?",
+                "Donde inscribo ramos?",
+                "Donde inscribo cursos?",
+                "Donde inscribo asignaturas?",
+                "Donde inscribo mis ramos?",
+                "Donde inscribo mis cursos?",
+                "Donde inscribo mis asignaturas?",
+                "En que pagina se toman ramos?",
+                "En que pagina se toman cursos?",
+                "En que pagina se toman asignaturas?",
+                "En que pagina se inscriben ramos?",
+                "En que pagina se inscriben cursos?",
+                "En que pagina se inscriben asignaturas?",
+                "En que pagina tomo ramos?",
+                "En que pagina tomo cursos?",
+                "En que pagina tomo asignaturas?"
+            ],
+            "responses": [
+                "Para poder inscribir tus ramos, debes acceder al portal del estudiante en el siguiente link: <a href='https://portalalumnos.ucm.cl/v2/index.php/login' target= '_blank'>  https://portalalumnos.ucm.cl/v2/index.php/login </a> , ingresando tu rut sin el digito verificador y tu contraseña asignada, en caso de no tenerla, puedes solicitarla en servicios estudiantiles. Una vez dentro del portal, debes dirigirte a la pestaña 'Info. Curricular' y luego presionar en 'Inscripción o modificacion de cursos', donde podrás seleccionar los ramos que deseas inscribir."
+                
+            ]
+        },{
+            "tag": "Cursos_UCM",
+            "patterns": [
+                "¿Donde puedo ver mis ramos?",
+                "¿Donde puedo ver mis cursos?",
+                "¿Donde puedo ver mis asignaturas?",
+                "¿En que parte puedo ver mis ramos?",
+                "¿En que parte puedo ver mis cursos?",
+                "¿En que parte puedo ver mis asignaturas?",
+                "En que pagina veo mis ramos?",
+                "En que pagina veo mis cursos?",
+                "En que pagina veo mis asignaturas?",
+                "Donde veo mis ramos?",
+                "Donde veo mis cursos?",
+                "Donde veo mis asignaturas?",
+                "Donde puedo ver lo que suben los profesores a los ramos?",
+                "Donde puedo ver lo que suben los profesores a los cursos?",
+                "Donde puedo ver lo que suben los profesores a las asignaturas?",
+                "Donde puedo ver el material que sube el profesor a los ramos?",
+                "Donde puedo ver el material que sube el profesor a los cursos?",
+                "Donde puedo ver el material que sube el profesor a las asignaturas?",
+                "Donde puedo ver el material de los ramos?",
+                "Donde puedo ver el material de los cursos?",
+                "Donde puedo ver el material de las asignaturas?",
+                "Como veo mis ramos?",
+                "Como veo mis cursos?",
+                "Como veo mis asignaturas?",
+                "Como veo lo que suben los profesores a los ramos?"
+            ],
+            "responses": [
+                "Para poder visualizar tus cursos, debes acceder al LMS del estudiante en el siguiente link: <a href='https://lms.ucm.cl/' target= '_blank'>  https://lms.ucm.cl/ </a>  , ingresando tu rut sin el digito verificador y tu contraseña asignada, en caso de no tenerla, puedes solicitarla en servicios estudiantiles. Una vez dentro del LMS, debes dirigirte al curso que deseas ver y podrás visualizar el material subido por el profesor."
+                
+            ]
+        }
+        
+    ]
+}
